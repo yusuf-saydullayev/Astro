@@ -1,9 +1,9 @@
-// export type News = {
-//   articles: Cardtype[],
-//   status:string,
-//   totalResults:number,
-// }
-export type Cardtype = {
+export type News = {
+  articles: Cardtype[],
+  status:string,
+  totalResults:number,
+}
+ type Cardtype = {
   author: string | null,
   content: string,
   description: string,
