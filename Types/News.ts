@@ -3,7 +3,7 @@ export type News = {
   status:string,
   totalResults:number,
 }
- type Cardtype = {
+export type Cardtype = {
   author: string | null,
   content: string,
   description: string,

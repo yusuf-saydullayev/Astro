@@ -1,5 +1,5 @@
 ---
-import { Image, Picture } from "@astrojs/image/components";
+import { Image } from "@astrojs/image/components";
 
 type Props = {
   imgUrl: string;
@@ -24,13 +24,11 @@ const { imgUrl, url, description, title } = Astro.props;
     />
   </a>
   <div class="p-5">
-    <a href={url}>
-      <h5
-        class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-      >
-        {title}
-      </h5>
-    </a>
+    <h5
+      class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      {title}
+    </h5>
     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
       {description}
     </p>
