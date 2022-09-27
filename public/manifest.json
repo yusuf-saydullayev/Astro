@@ -1,0 +1,32 @@
+{
+  "theme_color": "#6366F1",
+  "background_color": "#6366F1",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Astro Pwa",
+  "short_name": "Astro",
+  "description": "Astro Islands represent a leading paradigm shift for frontend web architecture. Astro extracts your UI into smaller, isolated components on the page. Unused JavaScript is replaced with lightweight HTML, guaranteeing faster loads and time-to-interactive (TTI).",
+  "icons": [
+      {
+          "src": "/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      },
+      {
+          "src": "/icon-256x256.png",
+          "sizes": "256x256",
+          "type": "image/png"
+      },
+      {
+          "src": "/icon-384x384.png",
+          "sizes": "384x384",
+          "type": "image/png"
+      },
+      {
+          "src": "/icon-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+      }
+  ]
+}
