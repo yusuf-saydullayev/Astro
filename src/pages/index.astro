@@ -11,11 +11,11 @@ const data = await response.json() as News;
 <Layout title="Welcome to Astro.">
   <main>
     <h1 class="text-center text-2xl text-violet-600 p-4">
-      Welcome to <span class="text-red-600">Astro</span>
+      Welcome to <span class="text-red-600">News</span>
     </h1>
     <div class="flex flex-wrap justify-center gap-4 px-6">
       {
-        data.articles.map((item) => (
+        data?.articles?.map((item) => (
           <Card
             imgUrl={item.urlToImage}
             title={item.title}
