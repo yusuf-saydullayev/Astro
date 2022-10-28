@@ -3,8 +3,8 @@ import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
 import image from '@astrojs/image';
-// import netlify from '@astrojs/netlify/functions';
-import netlify from '@astrojs/netlify/edge-functions';
+import netlify from '@astrojs/netlify/functions';
+// import netlify from '@astrojs/netlify/edge-functions';
 
 
 // https://astro.build/config
