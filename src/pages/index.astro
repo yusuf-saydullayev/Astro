@@ -3,9 +3,9 @@ import Layout from '../layouts/Layout.astro'
 import Card from '../components/Card.astro'
 import type { News } from '../../Types/News'
 
-let date = new Date().toISOString().split('T')[0]
-const response = await fetch(`https://newsapi.org/v2/everything?q=Apple&from=${date}&sortBy=popularity&apiKey=${import.meta.env.PUBLIC_API_KEY}`)
-const data = (await response.json()) as News
+// let date = new Date().toISOString().split('T')[0]
+// const response = await fetch(`https://newsapi.org/v2/everything?q=Apple&from=${date}&sortBy=popularity&apiKey=${import.meta.env.PUBLIC_API_KEY}`)
+// const data = (await response.json()) as News
 // console.log(data);
 ---
 
@@ -15,7 +15,7 @@ const data = (await response.json()) as News
       Welcome to <span class="text-red-600">News</span>
     </h1>
     <div class="flex flex-wrap justify-center gap-4 px-6">
-      {data?.articles?.map((item) => <Card imgUrl={item?.urlToImage} title={item.title} url={item.url} description={item.description} />)}
+      <!-- {data?.articles?.map((item) => <Card imgUrl={item?.urlToImage} title={item.title} url={item.url} description={item.description} />)} -->
     </div>
   </main>
 </Layout>
