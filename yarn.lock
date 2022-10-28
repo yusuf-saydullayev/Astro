@@ -3493,7 +3493,7 @@ synckit@^0.7.0:
     "@pkgr/utils" "^2.3.0"
     tslib "^2.4.0"
 
-tailwindcss@^3.2.1:
+tailwindcss@^3.0.24:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.2.1.tgz#1bd828fff3172489962357f8d531c184080a6786"
   integrity sha512-Uw+GVSxp5CM48krnjHObqoOwlCt5Qo6nw1jlCRwfGy68dSYb/LwS9ZFidYGRiM+w6rMawkZiu1mEMAsHYAfoLg==

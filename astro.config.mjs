@@ -4,8 +4,6 @@ import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
 import image from '@astrojs/image';
 import netlify from '@astrojs/netlify/functions';
-// import netlify from '@astrojs/netlify/edge-functions';
-
 
 // https://astro.build/config
 
@@ -17,6 +15,9 @@ import netlify from '@astrojs/netlify/functions';
 
 // https://astro.build/config
 
+// https://astro.build/config
+
+// https://astro.build/config
 export default defineConfig({
   site: 'https://astro-poux.netlify.app/',
   integrations: [tailwind(), react(), image(), sitemap()],
