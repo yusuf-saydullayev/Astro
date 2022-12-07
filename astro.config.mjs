@@ -16,8 +16,6 @@ import image from '@astrojs/image';
 import netlify from '@astrojs/netlify/functions';
 
 // https://astro.build/config
-
-// https://astro.build/config
 export default defineConfig({
   site: 'https://astro-poux.netlify.app/',
   integrations: [tailwind(), react(), image({
