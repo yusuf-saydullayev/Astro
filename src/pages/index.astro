@@ -14,7 +14,7 @@ const data = (await response.json()) as News
       Welcome to <span class="text-red-600">News</span>
     </h1>
     <div class="flex flex-wrap justify-center gap-4 px-6">
-      {data?.articles?.map((item) => <Card imgUrl={item.urlToImage} title={item.title} url={item.url} description={item.description} />)}
+      {data?.articles?.map((item) => <Card imgUrl={item?.urlToImage} title={item.title} url={item.url} description={item.description} />)}
     </div>
   </main>
 </Layout>
