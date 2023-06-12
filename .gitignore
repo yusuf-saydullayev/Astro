@@ -4,8 +4,6 @@ dist/
 
 # dependencies
 node_modules/
-.env
-.env.production
 
 # logs
 npm-debug.log*
@@ -15,3 +13,6 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+.env
+.env.production
