@@ -3,8 +3,7 @@ import Layout from '../layouts/Layout.astro'
 import Card from '../components/Card.astro'
 import type { News } from '../../Types/News'
 
-let date = new Date().toISOString().split('T')[0]
-const response = await fetch(`https://newsapi.org/v2/everything?q=Apple&from=${date}&sortBy=popularity&apiKey=${import.meta.env.API_KEY}`)
+const response = await fetch(`https://newsapi.org/v2/everything?q=Apple&sortBy=popularity&apiKey=${import.meta.env.API_KEY}`)
 const data = (await response.json()) as News
 ---
 
